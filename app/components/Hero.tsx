@@ -16,13 +16,10 @@ export default async function Hero() {
       <div className="mb-8 flex flex-wrap justify-between md:mb-16">
         <div className="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:mb-8 md:text-6xl ">
-            Top Fashion for a Top Price
-          </h1>
+          STYLE ALTITUDE for Skiing and Snowboarding          </h1>
           <p className="max-w-md leading-relaxed text-yellow-200 xl:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            repudiandae temporibus voluptas voluptates, corporis atque fuga
-            perferendis provident rem voluptatem eum iste molestias. Quo,
-            voluptatum laborum corporis suscipit veniam facere?
+          BEST WOMEN'S ALL MOUNTAIN AND TOURING SKIS FOR ONE QUIVER 2024
+What is the best one quiver ski? Is it possible for one ski to do all including touring? What are All Mountain skis like on the piste? What sort of compromises do you need to make if you only have one ski to do all conditions? These were the questions we were debating in the van as we drove the three hour journey from Serre Chevalier to La Clusaz for the 2023 SIGB Ski Test...
           </p>
         </div>
         <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">

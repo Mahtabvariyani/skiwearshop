@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { links } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {ShoppingBag} from 'lucide-react'
+import {ShoppingBag, Snowflake} from 'lucide-react'
 import { useShoppingCart } from "use-shopping-cart";
 export default function Navbar() {
   const pathname = usePathname();
@@ -17,8 +17,15 @@ const {handleCartClick}=useShoppingCart()
         "
       >
         <Link href="/">
-          <h1 className="text-2xl font-bold">
-            <span className="text-primary">shopping</span>
+          <h1 className="text-2xl font-bold flex">
+            <div className="text-white ">
+          <Snowflake size={35} />
+
+            </div>
+            <span className="text-primary">
+              
+              
+                Skiwear</span>
           </h1>
         </Link>
         <nav className="hidden gap-12 lg:flex 2xl:ml-16">
