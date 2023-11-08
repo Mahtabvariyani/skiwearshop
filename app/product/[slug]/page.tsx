@@ -29,6 +29,9 @@ async function getData(slug: string) {
   const data = await client.fetch(query);
   return data;
 }
+
+export const dynamic = "force-dynamic";
+
 export default async function page({ params }: { params: { slug: string } }) {
   const data: fullProduct = await getData(params.slug);
   return (
