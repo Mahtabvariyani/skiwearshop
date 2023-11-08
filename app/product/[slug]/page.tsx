@@ -2,7 +2,6 @@ import AddToBag from "@/app/components/AddToBag";
 import ImagesGallery from "@/app/components/ImagesGallery";
 import { client } from "@/app/lib/sanity";
 import { Button } from "@/components/ui/button";
-import category from "@/sanity/schemas/category";
 import {  Ship, Star } from "lucide-react";
 
 export interface fullProduct {
